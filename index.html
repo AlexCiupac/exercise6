@@ -2,10 +2,14 @@
 <html>
   <head>
     <title>Exercise 6: Banh Mi, menus, and layout</title>
+    <!-- Made by Alex Ciupac on October 22nd, 2025 -->
     <!-- This is embed code for Google fonts, take a look at  https://fonts.google.com/ for more info, you can just pick fonts and get an embed code which you use here. See how I am controlling them from <style> most of the CSS is just pasted in from Google and I have made tweaks to the weights and added other bits. This is what we will learn next week.-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <style>
       body {
         font-family: "Open Sans", sans-serif;
@@ -66,6 +70,7 @@
       
       .container {
         display: grid;
+        /* using auto or a percentage for the grid columns didn't format it properly for me so I looked into a different way of formatting it*/
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
         padding: 20px;
@@ -88,6 +93,7 @@
         font-size: 25px;
         font-weight: 50px;
         padding: 45px;
+        font-family: "Ubuntu", sans-serif;
       }
     </style>
   </head>
